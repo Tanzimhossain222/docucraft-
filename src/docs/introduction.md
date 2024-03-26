@@ -1,11 +1,11 @@
 ---
-title: 'Introduction'
-date: '2024-03-26'
+title: "Introduction"
+date: "2024-03-26"
 parent: null
 order: 1
-author: 'Tanzim'
-category: 'General'
-tags: ['intro', 'getting-started']
+author: "Tanzim"
+category: "General"
+tags: ["intro", "getting-started"]
 ---
 
 ## API Documentation
