@@ -1,8 +1,9 @@
+import ContentDisplay from "@/components/ContentDisplay"
 
 const ContentPage = ({params: {contentId}}) => {
   return (
     <div>
-        <h1>Page {contentId}</h1>
+        <ContentDisplay id={contentId} />
     </div>
   )
 }

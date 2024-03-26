@@ -1,11 +1,13 @@
+import ContentDisplay from "@/components/ContentDisplay"
 
-const SubContentPage = ({params: {subContentId}}) => {
-  return (
-    <div>
-        <h1>Page {subContentId}</h1>
+const SubContentPage = ({ params: { subContentId } }) => {
+    return (
+        <div>
 
-    </div>
-  )
+            <ContentDisplay id={subContentId} />
+
+        </div>
+    )
 }
 
 export default SubContentPage
